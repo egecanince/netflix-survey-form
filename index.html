@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>NET<span>FLIX</span></h1>
+        <h2>Thank you for signing up at Netflix. Tell us more about yourself.</h2>
+        <form action="#">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="content">Content Type</label><br>
+            <select name="content" id="content">
+                <option value="movie">Movie</option>
+                <option value="series">Series</option>
+            </select><br>
+            <br>
+            <label for="movietype">Movie Type</label><br>
+            <input type="checkbox" id="comedy" name="comedy" value="comedy">
+            <label for="comedy">Comedy</label><br>
+            <input type="checkbox" id="action" name="action" value="action">
+            <label for="action">Action</label><br>
+            <input type="checkbox" id="romance" name="romance" value="romance">
+            <label for="romance">Romance</label><br>
+            <br>
+            <label for="Gender">Gender</label><br>
+            <input type="radio" id="Male" name="Male" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Female" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="Other" value="Other">
+            <label for="Other">Other</label><br>
+            <br>
+            <label for="text">Feedback</label><br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+            <br>
+            <center><button>Send</button></center>
+
+        </form>
+    </div>
+</body>
+</html>

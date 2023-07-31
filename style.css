@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Merriweather:ital,wght@0,700;1,700&family=Oswald:wght@200&family=Roboto+Slab:wght@600&display=swap');
+
+body {
+    background-image: url("img/background.jpg");
+    color: white;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    ;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 6px;
+}
+
+h2 {
+    font-size: large;
+}
+
+span {
+    color:red;
+}
+div {
+    margin: auto;
+    width: 80%;
+    border: 0px solid black;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+}
+
+form {
+    background-color: black;
+    max-width: 50%;
+    margin: auto;
+    padding: 40px;
+    font-size: 15px;
+}
+
+#name, #age, #email, #content {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+     background-color: red;
+     border-radius: 20px;
+     border-style: none;
+     color: #FFFFFF;
+     cursor: pointer;
+     font-size: 19px;
+     height: 40px;
+     width: 150px;
+     padding: 10px 16px;
+}
+
+input[type=text], input[type=number], input[type=email], select {
+    height: 30px;
+}
